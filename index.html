@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 11 exercise</title>
+</head>
+<body>
+  <div>
+    <h3>Question 03</h3>
+    <p>Please give us your contact details. We will get back to you.</p>
+      <h4>Contact form</h4>
+      <small><sup>*</sup> fields are mandatory</small><br>
+      <form action="https://example.com" method="GET">
+          <label for="fname">First Name<sup>*</sup>:</label><br>
+          <input type="text" id="fname" name="fname" required><br>
+          <label for="lname">Last Name<sup>*</sup></label><br>
+          <input type="text" id="lname" name="lname" required><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email"><br>
+          <label for="mobile">Mobile No<sup>*</sup></label><br>
+          <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br>
+          <div>
+              <p>Choose best time to contact: </p>
+              <input type="checkbox" id="time1" name="time1" value="morning">
+              <label for="time1">Morning</label><br>
+              <input type="checkbox" id="time2" name="time2" value="afternoon">
+              <label for="time2">Afternoon</label><br>
+              <input type="checkbox" id="time3" name="time3" value="evening">
+              <label for="time3">Evening</label>
+          </div> <br>
+          <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div>
+      <h3>Question 04</h3>
+      <p>Below are skills required for a web dev: </p>
+      <ul>
+          <li>Programming Language
+              <ul>
+                  <li>JavaScript
+                      <ol>
+                          <li>Angular</li>
+                          <li>React</li>
+                          <li>Vue.js</li>
+                      </ol>
+                  </li>
+                  <li>Python
+                      <ol>
+                          <li>Django Framework</li>
+                          <li>Flask Framework</li>
+                      </ol>
+                  </li>
+                  <li>Java
+                      <ol>
+                          <li>Spring</li>
+                          <li>Maven</li>
+                          <li>Hibernate</li>
+                      </ol>
+                  </li>
+              </ul>
+          </li>
+          <li>Database
+              <ul>
+                  <li>MySQL</li>
+                  <li>MongoDB</li>
+                  <li>Cansandra</li>
+              </ul>
+          </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Question 05</h3>
+      <a href="https://google.com" target="_blank">google</a>
+    </div>
+
+    <div>
+      <h4>Question 06</h4>
+      <form action="https://example.com" method="GET">
+        <div>
+            <p>Employee Status:</p>
+            <input type="radio" id="salaried" name="emp_status" value="salaried">
+            <label for="salaried">Salaried</label><br>
+            <input type="radio" id="business" name="emp_status" value="business">
+            <label for="business">Own business</label><br><br>
+            <input type="submit" value="Submit">
+        </div>
+      </form>      
+    </div>
+</body>
+</html>
