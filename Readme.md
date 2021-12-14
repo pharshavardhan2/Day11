@@ -1,2 +1,2 @@
 - I answered first two code corrections in exercise.md
-- For remaining, I put all required tasks in index.html
+- Remaining tasks are in index.html
