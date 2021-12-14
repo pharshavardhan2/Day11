@@ -4,91 +4,227 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="index.css">
   <title>Day 11 exercise</title>
 </head>
 <body>
   <div>
     <h3>Question 03</h3>
     <p>Please give us your contact details. We will get back to you.</p>
-      <h4>Contact form</h4>
-      <small><sup>*</sup> fields are mandatory</small><br>
-      <form action="https://example.com" method="GET">
-          <label for="fname">First Name<sup>*</sup>:</label><br>
-          <input type="text" id="fname" name="fname" required><br>
-          <label for="lname">Last Name<sup>*</sup></label><br>
-          <input type="text" id="lname" name="lname" required><br>
-          <label for="email">Email:</label><br>
-          <input type="email" id="email" name="email"><br>
-          <label for="mobile">Mobile No<sup>*</sup></label><br>
-          <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br>
-          <div>
-              <p>Choose best time to contact: </p>
-              <input type="checkbox" id="time1" name="time1" value="morning">
-              <label for="time1">Morning</label><br>
-              <input type="checkbox" id="time2" name="time2" value="afternoon">
-              <label for="time2">Afternoon</label><br>
-              <input type="checkbox" id="time3" name="time3" value="evening">
-              <label for="time3">Evening</label>
-          </div> <br>
-          <input type="submit" value="Submit">
-      </form>
-    </div>
-
-    <div>
-      <h3>Question 04</h3>
-      <p>Below are skills required for a web dev: </p>
-      <ul>
-          <li>Programming Language
-              <ul>
-                  <li>JavaScript
-                      <ol>
-                          <li>Angular</li>
-                          <li>React</li>
-                          <li>Vue.js</li>
-                      </ol>
-                  </li>
-                  <li>Python
-                      <ol>
-                          <li>Django Framework</li>
-                          <li>Flask Framework</li>
-                      </ol>
-                  </li>
-                  <li>Java
-                      <ol>
-                          <li>Spring</li>
-                          <li>Maven</li>
-                          <li>Hibernate</li>
-                      </ol>
-                  </li>
-              </ul>
-          </li>
-          <li>Database
-              <ul>
-                  <li>MySQL</li>
-                  <li>MongoDB</li>
-                  <li>Cansandra</li>
-              </ul>
-          </li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Question 05</h3>
-      <a href="https://google.com" target="_blank">google</a>
-    </div>
-
-    <div>
-      <h4>Question 06</h4>
-      <form action="https://example.com" method="GET">
+    <h4>Contact form</h4>
+    <small><sup>*</sup> fields are mandatory</small><br>
+    <form action="https://example.com" method="GET">
+        <label for="fname">First Name<sup>*</sup>:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last Name<sup>*</sup></label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="mobile">Mobile No<sup>*</sup></label><br>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br>
         <div>
-            <p>Employee Status:</p>
-            <input type="radio" id="salaried" name="emp_status" value="salaried">
-            <label for="salaried">Salaried</label><br>
-            <input type="radio" id="business" name="emp_status" value="business">
-            <label for="business">Own business</label><br><br>
-            <input type="submit" value="Submit">
+            <p>Choose best time to contact: </p>
+            <input type="checkbox" id="time1" name="time" value="morning">
+            <label for="time1">Morning</label><br>
+            <input type="checkbox" id="time2" name="time" value="afternoon">
+            <label for="time2">Afternoon</label><br>
+            <input type="checkbox" id="time3" name="time" value="evening">
+            <label for="time3">Evening</label>
+        </div> <br>
+        <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div>
+    <h3>Question 04</h3>
+    <p>Below are skills required for a web dev: </p>
+    <ul>
+        <li>Programming Language
+            <ul>
+                <li>JavaScript
+                    <ol>
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                    </ol>
+                </li>
+                <li>Python
+                    <ol>
+                        <li>Django Framework</li>
+                        <li>Flask Framework</li>
+                    </ol>
+                </li>
+                <li>Java
+                    <ol>
+                        <li>Spring</li>
+                        <li>Maven</li>
+                        <li>Hibernate</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Database
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+            </ul>
+        </li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Question 05</h3>
+    <a href="https://google.com" target="_blank">google</a>
+  </div>
+
+  <div>
+    <h4>Question 06</h4>
+    <form action="https://example.com" method="GET">
+      <div>
+          <p>Employee Status:</p>
+          <input type="radio" id="salaried" name="emp_status" value="salaried">
+          <label for="salaried">Salaried</label><br>
+          <input type="radio" id="business" name="emp_status" value="business">
+          <label for="business">Own business</label><br><br>
+          <input type="submit" value="Submit">
+      </div>
+    </form>      
+  </div>
+
+  <h4>Quetion 07</h4>
+  <div class="q7">
+    <h5>Yes! I want to subscribe to <em>Mag-O-Zine</em></h5>
+    <div class="input-form">
+      <div class="name">
+        <div class="text-input">
+          <input type="text" id="fname" name="fname" value="John">
+          <label for="fname">First Name</label>
         </div>
-      </form>      
+        <div class="text-input">
+          <input type="text" id="lname" name="lname" value="Doe">
+          <label for="lname">Last Name</label>
+        </div>
+      </div>
+      
+      <div class="text-input">
+        <input type="text" id="address" name="address" value="punjagutta">
+        <label for="address">Address</label>
+      </div>
+
+      <div class="city-details">
+        <div class="text-input">
+          <input type="text" id="city" name="city" value="Hyderabad">
+          <label for="city">City</label>
+        </div>
+
+        <div class="text-input">
+          <input type="text" id="state" name="state" value="Telengana">
+          <label for="state">State</label>
+        </div>
+
+        <div class="text-input">
+          <input type="text" id="zip" name="zip" value="500082">
+          <label for="fname">Zip</label>
+        </div>
+      </div>
+
+      <div class="subscribe">
+        <span>Subscribe for:</span>
+        <input type="checkbox" id="year1" name="subscribe" value="19.95" checked>
+        <label for="year1">1 year ($19.95)</label>
+        <input type="checkbox" id="year2" name="subscribe" value="35.00">
+        <label for="year2">2 years ($35.00)</label>
+      </div>
+
+      <div>
+        <p>Send me more information about:</p>
+        <input type="checkbox" id="computer" name="interest" value="computer-zine" checked>
+        <label for="computer">Computer-Zine</label><br>
+        <input type="checkbox" id="fishing" name="interest" value="fishing-zine">
+        <label for="fishing">Fishing-Zine</label><br>
+        <input type="checkbox" id="cat" name="interest" value="cat-o-zine" checked>
+        <label for="cat">Cat-O-Zine</label>
+      </div>
     </div>
+  </div>
+
+  <h4>Question 08</h4>
+  <div class="q8">
+    <h4>Health Chart</h4>
+    <table>
+      <tr>
+        <th rowspan="2">State of Health</th>
+        <th colspan="2">Fasting Value</th>
+        <th>After Eating</th>
+      </tr>
+
+      <tr>
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 hours after eating</td>
+      </tr>
+
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+      </tr>
+
+      <tr>
+        <td>Pre-Diatetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>Less than 140</td>
+      </tr>
+
+      <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+      </tr>
+    </table>
+  </div>
+
+  <h4>Question 10</h4>
+  <div>
+    <marquee><u><strong>HTML & CSS is awesome</strong></u></marquee>
+  </div>
+
+  <h4>Question 8, 11</h4>
+  <div class="q11">
+    <form action="https://example.com" method="GET">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" value="John Doe"><br>
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="pwd"><br>
+      Highest education:
+      <input type="radio" id="bachelors" name="high-edu" value="bachelors" checked>
+      <label for="bachelors">Bachelors</label>
+      <input type="radio" id="masters" name="high-edu" value="masters">
+      <label for="masters">Masters</label><br>
+      Wish to visit:
+      <input type="checkbox" id="chirapunji" name="places" value="chirapunji" checked>
+      <label for="chirapunji">Chirapunji</label>
+      <input type="checkbox" id="udaipur" name="places" value="udaipur">
+      <label for="udaipur">Udaipur</label><br>
+      <input type="button" onclick="alert('You are an idiot')" value="Click to know a secret!"><br>
+      <label for="favcolor">Pick your favourite color:</label>
+      <input type="color" id="favcolor" name="favcolor" value="royalblue"><br>
+      <label for="dob">Your birthday:</label>
+      <input type="date" id="dob" name="dob" max="2021-12-15" min="1910-01-01"><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" value="example@mail.com"><br>
+      <label for="resume">Upload your resume:</label>
+      <input type="file" id="resume" name="resume"><br>
+      <label for="github">GitHub profile:</label>
+      <input type="url" id="github" name="github" value="https://github.com/user"><br>
+      <input type="reset">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 </body>
 </html>
